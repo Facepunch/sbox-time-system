@@ -1,4 +1,4 @@
-﻿namespace Facepunch.Lib;
+﻿namespace Conna.Time;
 
 public enum TimeSection
 {

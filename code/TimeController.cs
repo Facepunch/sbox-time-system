@@ -2,7 +2,7 @@
 using Editor;
 using System.Linq;
 
-namespace Facepunch.Lib;
+namespace Conna.Time;
 
 public abstract class TimeGradient<T>
 {

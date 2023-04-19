@@ -1,7 +1,7 @@
 {
   "Title": "Time System",
   "Type": "library",
-  "Org": "facepunch",
+  "Org": "conna",
   "Ident": "time_system",
   "Tags": null,
   "Schema": 1,
@@ -20,6 +20,10 @@
       "DefineConstants": "SANDBOX;ADDON;DEBUG",
       "NoWarn": "1701;1702;1591;",
       "References": []
-    }
+    },
+    "Summary": "\u2600\uFE0F A simple library for implementing a 24 hour time system for day and night",
+    "Description": "",
+    "Public": true,
+    "ReplaceTags": "dayandnight"
   }
 }

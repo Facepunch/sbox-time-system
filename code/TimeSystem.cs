@@ -1,6 +1,6 @@
 ﻿using Sandbox;
 
-namespace Facepunch.Lib;
+namespace Conna.Time;
 
 public partial class TimeSystem : Entity
 {
@@ -87,7 +87,7 @@ public partial class TimeSystem : Entity
 	[Event.Tick.Server]
 	private void Tick()
 	{
-		InternalTimeOfDay += Speed * Time.Delta;
+		InternalTimeOfDay += Speed * Sandbox.Time.Delta;
 
 		if ( InternalTimeOfDay >= 24f )
 		{
